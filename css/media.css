@@ -1,0 +1,364 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .me-md-4 {
+        margin-right: 10px!important;
+    }
+    .btn_custom {
+        padding: 8px 25px;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .banner_contant h1 {
+        font-weight: 600;
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .sm_padding img{
+        margin-top: 75px;
+    }
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .E_logo{
+        width: 35%;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-collapse form{
+        justify-content: center;
+    }
+    .btn_custom {
+        font-size: 15px;
+        padding: 7px 20px;
+    }
+    .banner_contant{
+        padding-top: 45px;
+        text-align: center;
+    }
+    .banner_item{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .feature_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .feature_contant{
+        max-width: 100%;
+        min-height: 90%;
+        margin-top: 30px;
+    }
+    .banner_contant h1 {
+        font-size: 40px;
+    }
+    .banner_contant p {
+        padding: 0 50px;
+    }
+    .head_cours {
+        padding-bottom: 0px;
+    }
+    .sm_padding{
+        padding: 20px;
+    }
+    .cours_contant{
+        margin-top: 40px;
+    }
+    .profile{
+        width: 35%;
+        margin: auto;
+    }
+    .text p{
+        line-height: 25px;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .footer_text p{
+        line-height: 25px;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .footer_head ul li{
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .copy_right{
+        padding-top: 10px;
+    }
+    .copy_right p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+ }
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 426px) and (max-width: 575.98px) { 
+    .E_logo {
+        width: 40%;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-collapse form{
+        justify-content: center;
+    }
+    .banner_contant h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner_item{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .btn_custom {
+        font-size: 15px;
+        padding: 7px 20px;
+    }
+    .nanner_btn_custom {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 9px 25px;
+        margin-bottom: 25px;
+    }
+    .sm_padding{
+        padding: 20px;
+    }
+    .feature_contant{
+        max-width: 60%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .cours_contant{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .head_cours {
+        padding-bottom: 10px;
+    }
+    .feature_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .feature_contant{
+        max-width: 80%;
+        /* min-height: 90%; */
+        margin: auto;
+        margin-top: 30px;
+    }
+    .profile{
+        width: 30%;
+        margin: auto;
+    }
+    .text p{
+        line-height: 25px;
+        padding: 10px 50px;
+    }
+    .footer{
+        padding-top: 20px;
+    }
+    .footer_text p{
+        line-height: 25px;
+        padding: 10px 50px;
+    }
+    .footer_head ul li {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    .footer_head ul li a{
+        font-size: 14px;
+    }
+    .copy_right {
+        padding: 0px 0 0;
+    }
+    .copy_right p{
+        font-size: 15px;
+    }
+
+ }
+ @media (min-width:321px) and (max-width: 425px){
+    .E_logo {
+        width: 40%;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-collapse form{
+        justify-content: center;
+    }
+    .btn_custom {
+        font-size: 15px;
+        padding: 7px 20px;
+    }
+    .banner_contant h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner_contant p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .banner_item{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .sm_padding{
+        padding: 20px;
+    }
+    .cours_contant{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .col_fea_padd{
+        padding: 0;
+    }
+    .feature_contant{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .head_cours h1{
+        padding: 0 0;
+    }
+    .head_cours{
+        padding-bottom: 15px;
+    }
+    .text p {
+        line-height: 25px;
+        padding: 20px 20px;
+        text-align: center;
+        margin: 0;
+    }
+    .footer{
+        margin-top: 5px;
+    }
+    .profile {
+        width: 45%;
+        margin: auto;
+    }
+    .footer_text p {
+        padding: 0px 0px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .footer_head{
+        padding: 0;
+    }
+    .footer_head ul{
+        padding-inline-start: 10px;
+        padding-inline-end: 10px;
+    }
+    .respon_padd{
+        padding: 0 15px;
+    }
+    .copy_right {
+        padding: 0px 0 0;
+    }
+    .copy_right p{
+        font-size: 14px;
+    }
+    
+ }
+
+ @media (max-width: 320px) {
+    .E_logo {
+        width: 50%;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-collapse form{
+        justify-content: center;
+    }
+    .btn_custom {
+        font-size: 15px;
+        padding: 7px 20px;
+    }
+    .banner_contant{
+        text-align: center;
+        padding: 0 0 0;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .banner_item{
+        padding-top: 20px;
+    }
+    .banner_contant h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .banner_contant h5 {
+        font-size: 15px;
+    }
+    .banner_contant p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .nanner_btn_custom {
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .profile {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .text p {
+        text-align: center;
+        margin: 0;
+    }
+    .feature_contant {
+        margin-top: 30px;
+    }
+    .footer_head ul {
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+        margin-bottom: 0;
+        
+    }
+    .footer_head ul li {
+        font-size: 15px;
+    }
+    .footer_head ul li a {
+        font-size: 12px;
+    }
+    .footer_text p {
+        text-align: center;
+    }
+    .sm_padding{
+        padding: 20px;
+    }
+    .cours_contant{
+        max-width: 96%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .head_cours {
+        padding-bottom: 0px;
+    }
+    .head_cours h1 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .copy_right {
+        padding: 10px 0 0;
+    }
+    .copy_right p{
+        font-size: 13px;
+    }
+ }
+
+
+
+
+/* 
+// Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) { ... }  */
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */
